@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_disney2"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/sp_rectangle_root"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="10dp"
+            android:hint="Email" />
+
+        <View
+            android:id="@+id/v_saparator"
+            android:background="#E8E9E8"
+            android:layout_below="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_panah_recovery"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="168dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/bt_sendemail"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:background="@drawable/costum_button"
+        android:textSize="17sp"
+        android:text="back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rl_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="RECOVERY ACCOUNT"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_sendemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Send Email"
+        android:textAllCaps="false" />
+</RelativeLayout>

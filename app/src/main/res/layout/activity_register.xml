@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_disney3"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/sp_rectangle_root"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="10dp"
+            android:hint="Email" />
+        <View
+            android:id="@+id/v_saparator"
+            android:background="#E8E9E8"
+            android:layout_below="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_saparator"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/et_cpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_pass"
+            android:background="@drawable/sp_rectangle_root"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="30dp"
+            android:hint="Confirm Password" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_panah_register"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/costum_button"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="back"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:text="REGISTER"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_marginTop="178dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_register_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Register"
+        android:textAllCaps="false" />
+</RelativeLayout>
