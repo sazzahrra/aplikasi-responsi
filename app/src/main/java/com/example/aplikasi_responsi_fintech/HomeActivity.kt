@@ -45,29 +45,29 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // fragment
-        btnHomeHome.setOnClickListener {
-            loadFragment(HomeFragment())
-        }
+//        // fragment
+//        btnHomeHome.setOnClickListener {
+//            loadFragment(HomeFragment())
+//        }
 
-        btnHistoryHome.setOnClickListener {
-            loadFragment(HistoryFragment())
-        }
-
-        btnPaymentHome.setOnClickListener {
-            loadFragment(PaymentFragment())
-        }
-
-        btnSettingHome.setOnClickListener {
-            loadFragment(SettingFragment())
-        }
+//        btnHistoryHome.setOnClickListener {
+//            loadFragment(HistoryFragment())
+//        }
+//
+//        btnPaymentHome.setOnClickListener {
+//            loadFragment(PaymentFragment())
+//        }
+//
+//        btnSettingHome.setOnClickListener {
+//            loadFragment(SettingFragment())
+//        }
 
 
     }
-
-    private fun loadFragment(fragment: Fragment){
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.container, fragment)
-            .commitNow()
-    }
+//
+//    private fun loadFragment(fragment: Fragment){
+//        supportFragmentManager.beginTransaction()
+//            .replace(R.id.container, fragment)
+//            .commitNow()
+//    }
 }
