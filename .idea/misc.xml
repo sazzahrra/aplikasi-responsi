@@ -11,12 +11,15 @@
         <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.165" />
         <entry key="app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.165" />
         <entry key="app/src/main/res/drawable/sp_rectangle_root.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2286481492062833" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_recovery.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.21" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21003134796238246" />
+        <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.14387031408308004" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.15070921985815602" />
       </map>
     </option>
   </component>
